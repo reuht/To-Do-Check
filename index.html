@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do 😎</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="handeling">
+            <h1>TODO check 😁</h1>
+        </header>
+        <div class="push_task">
+            <input class="push_task_input" id="input" type="text">
+            <button class="push" id="push">
+                To Do
+            </button>
+        </div>
+        <div class=task_content>
+
+            <!-- TODO: Pendientes -->
+            <div class="container_task">
+                <div class="pending" id="todo">
+                    <p>-- TODO: Pendientes --</p>
+                </div>
+            </div>
+            <!-- TODO: En proceso -->
+            <div class="container_task">
+                <div class="tasks_in_progress" id="tasks_in_progress">
+                    <p>-- TODO: En proceso --</p>
+                  
+                </div>
+            </div>
+            <!-- TODO:  Finalizados -->
+            <div class="container_task">
+                <div class="completed_tasks" id="completed_tasks">
+                    <p>-- TODO:  Finalizados --</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/todo.js"></script>
+</body>
+</html>
